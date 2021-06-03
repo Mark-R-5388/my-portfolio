@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  height: 200px;
+  border-bottom: 2px solid white;
+  background: rgba(58, 58, 252, 0.801);
+  color: rgba(245, 245, 245, 0.897);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  align-content: center;
+}
+
+.navbar-container > * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.picture-size {
+  width: 200px;
+}
+
+.header {
+  text-align: center;
+}
+
+/* About Me Start */
+
+.about-me-container {
+  height: 600px;
+  color: white;
+  margin-top: 30px;
+  border-top: 1px solid rgb(0, 0, 0);
+  background: blue;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* About Me End */
+
+/* My Projects Start */
+.my-projects-container {
+  height: 600px;
+  color: white;
+  margin-top: 30px;
+  border-top: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 0, 0);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-projects-row {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-projects-picture {
+  width: 150px;
+  border-radius: 20px;
+}
+
+.my-projects-text {
+  margin-left: 20px;
+}
+/* My Projects End */
+
+/* Contact Me Start */
+/* Contact Me End */
